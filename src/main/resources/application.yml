@@ -1,0 +1,11 @@
+application:
+  weather:
+    url: http://api.weatherapi.com
+    apiKey: ${WEATHER_API_KEY}
+  analytics:
+    clientId: ${CLIENT_ID}
+    measurementId: ${GA_ID}
+    apiSecret: ${GA_API_KEY}
+    url: https://www.google-analytics.com
+    eventWeather: kyiv_weather
+
