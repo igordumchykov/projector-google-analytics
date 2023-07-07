@@ -69,7 +69,7 @@ curl --location 'http://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=Kiev
 curl --location 'https://www.google-analytics.com/mp/collect?api_secret=${API_SECRET}&measurement_id=${MEASUREMENT_ID}' \
 --header 'Content-Type: application/json' \
 --data '{
-    "client_id": "BF52DF9A-E1DB-44D1-842E-A8D37B5A969C",
+    "client_id": "${CLIENT_ID}",
     "events": [{
         "name": "kyiv_weather",
         "params": {
